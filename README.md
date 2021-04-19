@@ -26,5 +26,7 @@ Every change made directly saves the file loaded, so no need to do it manually.
 
 ## Sites
 https://www.xpiratez.wtf/en-US
+
 https://openxcom.org/forum/index.php/topic,3626.0.html
+
 https://www.moddb.com/mods/x-piratez
