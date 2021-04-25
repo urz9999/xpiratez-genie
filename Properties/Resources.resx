@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="STR_WELL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_WELL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_GYM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_GYM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_ARMORY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_ARMORY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_MISSILE_DEFENCE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_MISSILE_DEFENCE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_CASINO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_CASINO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_PERSONAL_LAB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_PERSONAL_LAB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_COMPUTER_CORE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_COMPUTER_CORE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_EYE_OF_HORUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_EYE_OF_HORUS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_ONSEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_ONSEN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_MESS_HALL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_MESS_HALL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_LARGE_SPA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_LARGE_SPA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_POWER_PLANT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_POWER_PLANT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_WORKSHOP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_WORKSHOP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="openxcom_piratez_by_berggen_cut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\openxcom_piratez_by_berggen_cut.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_SAM_DEFENCE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_SAM_DEFENCE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_LOVE_CLINIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_LOVE_CLINIC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open_folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open_folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_PLASMA_DEFENCE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_PLASMA_DEFENCE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_VAULT_BIG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_VAULT_BIG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_FIRE_PIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_FIRE_PIT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_GRAV_SHIELD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_GRAV_SHIELD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_PLANTATION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_PLANTATION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_JAIL_CRYO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_JAIL_CRYO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_CLONING_CENTRE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_CLONING_CENTRE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_BEAST_DEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_BEAST_DEN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="openxcom_piratez_by_berggen_cut1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\openxcom_piratez_by_berggen_cut1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_ASTROSENSORIUM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_ASTROSENSORIUM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_LIVING_QUARTERS_BIG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_LIVING_QUARTERS_BIG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_FLACK_DEFENCE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_FLACK_DEFENCE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_LIVING_QUARTERS_ADVANCED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_LIVING_QUARTERS_ADVANCED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_VAULT_ARMORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_VAULT_ARMORED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_JAIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_JAIL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_REFINERY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_REFINERY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_GAS_CHAMBER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_GAS_CHAMBER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_FUSION_DEFENCE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_FUSION_DEFENCE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_LIVING_QUARTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_LIVING_QUARTERS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_WEED_PLANTATION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_WEED_PLANTATION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_MINT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_MINT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_DATA_CENTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_DATA_CENTER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_ACCESS_LIFT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_ACCESS_LIFT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_VAULT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_VAULT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_BEE_HIVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_BEE_HIVE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_ALENIUM_CHAMBER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_ALENIUM_CHAMBER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_BURROW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_BURROW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_GAUSS_DEFENCE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_GAUSS_DEFENCE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_CORRIDOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_CORRIDOR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_METAGARDEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_METAGARDEN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_DISRUPTOR_SHROUD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_DISRUPTOR_SHROUD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_RED_TOWER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_RED_TOWER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_SURGERY_ROOM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_SURGERY_ROOM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_LIBRARY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_LIBRARY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bullet_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bullet_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_MIND_SHIELD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_MIND_SHIELD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_FLACK_TOWER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_FLACK_TOWER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_MED_BAY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_MED_BAY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_RADAR_BIG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_RADAR_BIG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_HYPERWAVE_DECODER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_HYPERWAVE_DECODER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_LABORATORY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_LABORATORY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bullet_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bullet_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_PSYONIC_LAB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_PSYONIC_LAB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_LIVING_QUARTERS_SMALL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_LIVING_QUARTERS_SMALL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_BOOM_PLANTATION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_BOOM_PLANTATION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_STILL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_STILL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_FUSION_LAB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_FUSION_LAB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_STUDY_ROOM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_STUDY_ROOM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_BIG_LIBRARY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_BIG_LIBRARY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_RADAR_SMALL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_RADAR_SMALL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_SUMMONING_CIRCLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_SUMMONING_CIRCLE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_INDUSTRIAL_PRINTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_INDUSTRIAL_PRINTER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="door" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\door.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_GDX_LAB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_GDX_LAB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_EMPTY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_EMPTY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_HANGARS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_HANGARS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_FACTORY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_FACTORY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_LASER_DEFENCE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_LASER_DEFENCE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_JAIL_BIG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STR_JAIL_BIG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sound_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sound_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_06_Intercept" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\06-Intercept.MID;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
