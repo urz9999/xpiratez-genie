@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\genie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|solutionrelative:genie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\utils\\savegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|solutionrelative:utils\\savegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\utils\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|solutionrelative:utils\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\utils\\saveeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|solutionrelative:utils\\saveeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|d:\\ultron x projects\\c#\\xpiratez-genie2.0\\utils\\manufactures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|solutionrelative:utils\\manufactures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|d:\\ultron x projects\\c#\\xpiratez-genie2.0\\genie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|solutionrelative:genie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\genie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -29,6 +17,21 @@
     {
       "AbsoluteMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\genie.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|solutionrelative:genie.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\utils\\savegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|solutionrelative:utils\\savegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Urz9999\\AppData\\Local\\Temp\\.vsdbgsrc\\835116e434476c0a3c07f3f3d61e3f00e04709998eca73e5b7c700f6729b2e5c\\YamlNode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\utils\\saveeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|solutionrelative:utils\\saveeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\utils\\manufactures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|solutionrelative:utils\\manufactures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3871839-1901-43CA-AD01-BD75AE4BDEEA}|XPirateZ-Genie2.0.csproj|D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\utils\\planereferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +53,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Genie.cs [Design]",
+              "DocumentMoniker": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Genie.cs",
+              "RelativeDocumentMoniker": "Genie.cs",
+              "ToolTip": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Genie.cs [Design]",
+              "RelativeToolTip": "Genie.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T22:05:13.827Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Genie.Designer.cs",
+              "DocumentMoniker": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Genie.Designer.cs",
+              "RelativeDocumentMoniker": "Genie.Designer.cs",
+              "ToolTip": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Genie.Designer.cs",
+              "RelativeToolTip": "Genie.Designer.cs",
+              "ViewState": "AQIAAJIHAAAAAAAAAAAewLAHAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T22:04:50.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "YamlNode.cs",
+              "DocumentMoniker": "C:\\Users\\Urz9999\\AppData\\Local\\Temp\\.vsdbgsrc\\835116e434476c0a3c07f3f3d61e3f00e04709998eca73e5b7c700f6729b2e5c\\YamlNode.cs",
+              "ToolTip": "C:\\Users\\Urz9999\\AppData\\Local\\Temp\\.vsdbgsrc\\835116e434476c0a3c07f3f3d61e3f00e04709998eca73e5b7c700f6729b2e5c\\YamlNode.cs [Read Only]",
+              "ViewState": "AQIAACAAAAAAAAAAAAArwDcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T21:52:03.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Manufactures.cs",
               "DocumentMoniker": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Utils\\Manufactures.cs",
               "RelativeDocumentMoniker": "Utils\\Manufactures.cs",
@@ -62,37 +100,11 @@
               "RelativeToolTip": "Utils\\Manufactures.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T21:26:34.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Genie.cs [Design]",
-              "DocumentMoniker": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Genie.cs",
-              "RelativeDocumentMoniker": "Genie.cs",
-              "ToolTip": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Genie.cs [Design]",
-              "RelativeToolTip": "Genie.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T09:34:25.72Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-02-26T21:26:34.912Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Genie.Designer.cs",
-              "DocumentMoniker": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Genie.Designer.cs",
-              "RelativeDocumentMoniker": "Genie.Designer.cs",
-              "ToolTip": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Genie.Designer.cs",
-              "RelativeToolTip": "Genie.Designer.cs",
-              "ViewState": "AQIAAHEHAAAAAAAAAAAAAIYHAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T21:20:03.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "SaveEditor.cs",
               "DocumentMoniker": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Utils\\SaveEditor.cs",
               "RelativeDocumentMoniker": "Utils\\SaveEditor.cs",
@@ -100,25 +112,24 @@
               "RelativeToolTip": "Utils\\SaveEditor.cs",
               "ViewState": "AQIAAHYAAAAAAAAAAAAMwH0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T19:07:05.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-18T19:07:05.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Genie.cs",
               "DocumentMoniker": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Genie.cs",
               "RelativeDocumentMoniker": "Genie.cs",
               "ToolTip": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Genie.cs",
               "RelativeToolTip": "Genie.cs",
-              "ViewState": "AQIAAPwCAAAAAAAAAAAQwCYDAAC4AAAA",
+              "ViewState": "AQIAAHMAAAAAAAAAAAD4v48AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-18T19:02:20.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PlaneReferences.cs",
               "DocumentMoniker": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Utils\\PlaneReferences.cs",
               "RelativeDocumentMoniker": "Utils\\PlaneReferences.cs",
@@ -130,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CraftsSpecs.cs",
               "DocumentMoniker": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Utils\\CraftsSpecs.cs",
               "RelativeDocumentMoniker": "Utils\\CraftsSpecs.cs",
@@ -142,20 +153,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SaveGame.cs",
               "DocumentMoniker": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Utils\\SaveGame.cs",
               "RelativeDocumentMoniker": "Utils\\SaveGame.cs",
               "ToolTip": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Utils\\SaveGame.cs",
               "RelativeToolTip": "Utils\\SaveGame.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAIwGAAAABHAAAA",
+              "ViewState": "AQIAAEoBAAAAAAAAAAAgwFMBAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T16:22:17.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-18T16:22:17.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Craft.cs",
               "DocumentMoniker": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Utils\\Craft.cs",
               "RelativeDocumentMoniker": "Utils\\Craft.cs",
@@ -167,13 +177,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Base.cs",
               "DocumentMoniker": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Utils\\Base.cs",
               "RelativeDocumentMoniker": "Utils\\Base.cs",
               "ToolTip": "D:\\Ultron X Projects\\C#\\XPirateZ-Genie2.0\\Utils\\Base.cs",
               "RelativeToolTip": "Utils\\Base.cs",
-              "ViewState": "AQIAAAoBAAAAAAAAAAAkwCoBAABPAAAA",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAewMkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-18T14:43:37.353Z",
               "EditorCaption": ""

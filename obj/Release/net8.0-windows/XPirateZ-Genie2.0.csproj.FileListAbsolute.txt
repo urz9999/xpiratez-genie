@@ -18,3 +18,4 @@ D:\Ultron X Projects\C#\XPirateZ-Genie2.0\obj\Release\net8.0-windows\refint\XPir
 D:\Ultron X Projects\C#\XPirateZ-Genie2.0\obj\Release\net8.0-windows\XPirateZ-Genie2.0.pdb
 D:\Ultron X Projects\C#\XPirateZ-Genie2.0\obj\Release\net8.0-windows\XPirateZ-Genie2.0.genruntimeconfig.cache
 D:\Ultron X Projects\C#\XPirateZ-Genie2.0\obj\Release\net8.0-windows\ref\XPirateZ-Genie2.0.dll
+D:\Ultron X Projects\C#\XPirateZ-Genie2.0\obj\Release\net8.0-windows\XPirateZ-Genie2.0.sourcelink.json

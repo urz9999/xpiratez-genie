@@ -64,7 +64,6 @@ namespace XPirateZ_Genie2._0
             label6 = new Label();
             label25 = new Label();
             itemQty = new NumericUpDown();
-            items = new ComboBox();
             label24 = new Label();
             baseName = new TextBox();
             b55 = new Button();
@@ -127,6 +126,21 @@ namespace XPirateZ_Genie2._0
             makeResearchExcelentButton = new Button();
             label26 = new Label();
             researchesListBox = new ListBox();
+            tabPage6 = new TabPage();
+            productionPanel = new Panel();
+            productionCompleteAllBtn = new Button();
+            label42 = new Label();
+            baseProduction8 = new Button();
+            baseProduction7 = new Button();
+            baseProduction6 = new Button();
+            baseProduction5 = new Button();
+            baseProduction4 = new Button();
+            baseProduction3 = new Button();
+            baseProduction2 = new Button();
+            baseProduction1 = new Button();
+            productionCompleteSelectedBTN = new Button();
+            label43 = new Label();
+            productionListBox = new ListBox();
             tabPage4 = new TabPage();
             soldierPanel = new Panel();
             label20 = new Label();
@@ -201,21 +215,7 @@ namespace XPirateZ_Genie2._0
             toolTip1 = new ToolTip(components);
             contextMenuStrip1 = new ContextMenuStrip(components);
             buildNowMenuItem = new ToolStripMenuItem();
-            tabPage6 = new TabPage();
-            productionPanel = new Panel();
-            productionCompleteAllBtn = new Button();
-            label42 = new Label();
-            baseProduction8 = new Button();
-            baseProduction7 = new Button();
-            baseProduction6 = new Button();
-            baseProduction5 = new Button();
-            baseProduction4 = new Button();
-            baseProduction3 = new Button();
-            baseProduction2 = new Button();
-            baseProduction1 = new Button();
-            productionCompleteSelectedBTN = new Button();
-            label43 = new Label();
-            productionListBox = new ListBox();
+            items = new ComboBox();
             toolStrip1.SuspendLayout();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
@@ -226,6 +226,8 @@ namespace XPirateZ_Genie2._0
             ((System.ComponentModel.ISupportInitialize)itemQty).BeginInit();
             tabPage3.SuspendLayout();
             researchPanel.SuspendLayout();
+            tabPage6.SuspendLayout();
+            productionPanel.SuspendLayout();
             tabPage4.SuspendLayout();
             soldierPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)soldierVDA).BeginInit();
@@ -248,8 +250,6 @@ namespace XPirateZ_Genie2._0
             ((System.ComponentModel.ISupportInitialize)ammoSlot1).BeginInit();
             panel1.SuspendLayout();
             contextMenuStrip1.SuspendLayout();
-            tabPage6.SuspendLayout();
-            productionPanel.SuspendLayout();
             SuspendLayout();
             // 
             // toolStrip1
@@ -590,10 +590,10 @@ namespace XPirateZ_Genie2._0
             // 
             // basesPanel
             // 
+            basesPanel.Controls.Add(items);
             basesPanel.Controls.Add(label6);
             basesPanel.Controls.Add(label25);
             basesPanel.Controls.Add(itemQty);
-            basesPanel.Controls.Add(items);
             basesPanel.Controls.Add(label24);
             basesPanel.Controls.Add(baseName);
             basesPanel.Controls.Add(b55);
@@ -685,17 +685,6 @@ namespace XPirateZ_Genie2._0
             itemQty.TabIndex = 148;
             itemQty.ValueChanged += itemQty_ValueChanged;
             // 
-            // items
-            // 
-            items.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            items.FormattingEnabled = true;
-            items.Location = new Point(7, 444);
-            items.Margin = new Padding(2);
-            items.Name = "items";
-            items.Size = new Size(556, 23);
-            items.TabIndex = 147;
-            items.SelectedIndexChanged += items_SelectedIndexChanged;
-            // 
             // label24
             // 
             label24.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
@@ -703,7 +692,7 @@ namespace XPirateZ_Genie2._0
             label24.BackColor = Color.Transparent;
             label24.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             label24.ForeColor = Color.White;
-            label24.Location = new Point(7, 421);
+            label24.Location = new Point(7, 417);
             label24.Margin = new Padding(2, 0, 2, 0);
             label24.Name = "label24";
             label24.Size = new Size(106, 20);
@@ -1462,6 +1451,200 @@ namespace XPirateZ_Genie2._0
             researchesListBox.Size = new Size(755, 304);
             researchesListBox.TabIndex = 58;
             // 
+            // tabPage6
+            // 
+            tabPage6.BackgroundImage = Properties.Resources.bg;
+            tabPage6.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage6.Controls.Add(productionPanel);
+            tabPage6.Location = new Point(4, 24);
+            tabPage6.Name = "tabPage6";
+            tabPage6.Padding = new Padding(3);
+            tabPage6.Size = new Size(776, 478);
+            tabPage6.TabIndex = 5;
+            tabPage6.Text = "Productions";
+            tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // productionPanel
+            // 
+            productionPanel.Controls.Add(productionCompleteAllBtn);
+            productionPanel.Controls.Add(label42);
+            productionPanel.Controls.Add(baseProduction8);
+            productionPanel.Controls.Add(baseProduction7);
+            productionPanel.Controls.Add(baseProduction6);
+            productionPanel.Controls.Add(baseProduction5);
+            productionPanel.Controls.Add(baseProduction4);
+            productionPanel.Controls.Add(baseProduction3);
+            productionPanel.Controls.Add(baseProduction2);
+            productionPanel.Controls.Add(baseProduction1);
+            productionPanel.Controls.Add(productionCompleteSelectedBTN);
+            productionPanel.Controls.Add(label43);
+            productionPanel.Controls.Add(productionListBox);
+            productionPanel.Dock = DockStyle.Fill;
+            productionPanel.Location = new Point(3, 3);
+            productionPanel.Name = "productionPanel";
+            productionPanel.Size = new Size(770, 472);
+            productionPanel.TabIndex = 0;
+            // 
+            // productionCompleteAllBtn
+            // 
+            productionCompleteAllBtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            productionCompleteAllBtn.Location = new Point(8, 426);
+            productionCompleteAllBtn.Name = "productionCompleteAllBtn";
+            productionCompleteAllBtn.Size = new Size(301, 38);
+            productionCompleteAllBtn.TabIndex = 131;
+            productionCompleteAllBtn.Text = "COMPLETE ALL";
+            productionCompleteAllBtn.UseVisualStyleBackColor = true;
+            productionCompleteAllBtn.Click += productionCompleteAllBtn_Click;
+            // 
+            // label42
+            // 
+            label42.AutoSize = true;
+            label42.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label42.ForeColor = Color.White;
+            label42.Location = new Point(8, 9);
+            label42.Margin = new Padding(4, 0, 4, 0);
+            label42.Name = "label42";
+            label42.Size = new Size(133, 20);
+            label42.TabIndex = 130;
+            label42.Text = "Select a base First";
+            // 
+            // baseProduction8
+            // 
+            baseProduction8.BackColor = Color.Maroon;
+            baseProduction8.Enabled = false;
+            baseProduction8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            baseProduction8.Location = new Point(253, 34);
+            baseProduction8.Margin = new Padding(4, 5, 4, 5);
+            baseProduction8.Name = "baseProduction8";
+            baseProduction8.Size = new Size(32, 32);
+            baseProduction8.TabIndex = 129;
+            baseProduction8.Text = "8";
+            baseProduction8.UseVisualStyleBackColor = false;
+            // 
+            // baseProduction7
+            // 
+            baseProduction7.BackColor = Color.Maroon;
+            baseProduction7.Enabled = false;
+            baseProduction7.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            baseProduction7.Location = new Point(218, 34);
+            baseProduction7.Margin = new Padding(4, 5, 4, 5);
+            baseProduction7.Name = "baseProduction7";
+            baseProduction7.Size = new Size(32, 32);
+            baseProduction7.TabIndex = 128;
+            baseProduction7.Text = "7";
+            baseProduction7.UseVisualStyleBackColor = false;
+            // 
+            // baseProduction6
+            // 
+            baseProduction6.BackColor = Color.Maroon;
+            baseProduction6.Enabled = false;
+            baseProduction6.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            baseProduction6.Location = new Point(183, 34);
+            baseProduction6.Margin = new Padding(4, 5, 4, 5);
+            baseProduction6.Name = "baseProduction6";
+            baseProduction6.Size = new Size(32, 32);
+            baseProduction6.TabIndex = 127;
+            baseProduction6.Text = "6";
+            baseProduction6.UseVisualStyleBackColor = false;
+            // 
+            // baseProduction5
+            // 
+            baseProduction5.BackColor = Color.Maroon;
+            baseProduction5.Enabled = false;
+            baseProduction5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            baseProduction5.Location = new Point(148, 34);
+            baseProduction5.Margin = new Padding(4, 5, 4, 5);
+            baseProduction5.Name = "baseProduction5";
+            baseProduction5.Size = new Size(32, 32);
+            baseProduction5.TabIndex = 126;
+            baseProduction5.Text = "5";
+            baseProduction5.UseVisualStyleBackColor = false;
+            // 
+            // baseProduction4
+            // 
+            baseProduction4.BackColor = Color.Maroon;
+            baseProduction4.Enabled = false;
+            baseProduction4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            baseProduction4.Location = new Point(113, 34);
+            baseProduction4.Margin = new Padding(4, 5, 4, 5);
+            baseProduction4.Name = "baseProduction4";
+            baseProduction4.Size = new Size(32, 32);
+            baseProduction4.TabIndex = 125;
+            baseProduction4.Text = "4";
+            baseProduction4.UseVisualStyleBackColor = false;
+            // 
+            // baseProduction3
+            // 
+            baseProduction3.BackColor = Color.Maroon;
+            baseProduction3.Enabled = false;
+            baseProduction3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            baseProduction3.Location = new Point(78, 34);
+            baseProduction3.Margin = new Padding(4, 5, 4, 5);
+            baseProduction3.Name = "baseProduction3";
+            baseProduction3.Size = new Size(32, 32);
+            baseProduction3.TabIndex = 124;
+            baseProduction3.Text = "3";
+            baseProduction3.UseVisualStyleBackColor = false;
+            // 
+            // baseProduction2
+            // 
+            baseProduction2.BackColor = Color.Maroon;
+            baseProduction2.Enabled = false;
+            baseProduction2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            baseProduction2.Location = new Point(43, 34);
+            baseProduction2.Margin = new Padding(4, 5, 4, 5);
+            baseProduction2.Name = "baseProduction2";
+            baseProduction2.Size = new Size(32, 32);
+            baseProduction2.TabIndex = 123;
+            baseProduction2.Text = "2";
+            baseProduction2.UseVisualStyleBackColor = false;
+            // 
+            // baseProduction1
+            // 
+            baseProduction1.BackColor = Color.Maroon;
+            baseProduction1.Enabled = false;
+            baseProduction1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            baseProduction1.Location = new Point(8, 34);
+            baseProduction1.Margin = new Padding(4, 5, 4, 5);
+            baseProduction1.Name = "baseProduction1";
+            baseProduction1.Size = new Size(32, 32);
+            baseProduction1.TabIndex = 122;
+            baseProduction1.Text = "1";
+            baseProduction1.UseVisualStyleBackColor = false;
+            // 
+            // productionCompleteSelectedBTN
+            // 
+            productionCompleteSelectedBTN.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            productionCompleteSelectedBTN.Location = new Point(462, 426);
+            productionCompleteSelectedBTN.Name = "productionCompleteSelectedBTN";
+            productionCompleteSelectedBTN.Size = new Size(301, 38);
+            productionCompleteSelectedBTN.TabIndex = 121;
+            productionCompleteSelectedBTN.Text = "COMPLETE SELECTED";
+            productionCompleteSelectedBTN.UseVisualStyleBackColor = true;
+            productionCompleteSelectedBTN.Click += productionCompleteSelectedBTN_Click;
+            // 
+            // label43
+            // 
+            label43.AutoSize = true;
+            label43.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label43.ForeColor = Color.White;
+            label43.Location = new Point(8, 95);
+            label43.Margin = new Padding(4, 0, 4, 0);
+            label43.Name = "label43";
+            label43.Size = new Size(390, 20);
+            label43.TabIndex = 120;
+            label43.Text = "Your current Productions with at least 1 Runt attached";
+            // 
+            // productionListBox
+            // 
+            productionListBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            productionListBox.FormattingEnabled = true;
+            productionListBox.ItemHeight = 15;
+            productionListBox.Location = new Point(8, 118);
+            productionListBox.Name = "productionListBox";
+            productionListBox.Size = new Size(755, 304);
+            productionListBox.TabIndex = 119;
+            // 
             // tabPage4
             // 
             tabPage4.BackgroundImage = Properties.Resources.bg;
@@ -1662,6 +1845,7 @@ namespace XPirateZ_Genie2._0
             soldierVDA.Name = "soldierVDA";
             soldierVDA.Size = new Size(112, 23);
             soldierVDA.TabIndex = 82;
+            soldierVDA.ValueChanged += soldierVal_ValueChanged;
             // 
             // soldierVDP
             // 
@@ -1671,6 +1855,7 @@ namespace XPirateZ_Genie2._0
             soldierVDP.Name = "soldierVDP";
             soldierVDP.Size = new Size(112, 23);
             soldierVDP.TabIndex = 81;
+            soldierVDP.ValueChanged += soldierVal_ValueChanged;
             // 
             // soldierMELEE
             // 
@@ -1680,6 +1865,7 @@ namespace XPirateZ_Genie2._0
             soldierMELEE.Name = "soldierMELEE";
             soldierMELEE.Size = new Size(112, 23);
             soldierMELEE.TabIndex = 80;
+            soldierMELEE.ValueChanged += soldierVal_ValueChanged;
             // 
             // soldierFRESH
             // 
@@ -1689,6 +1875,7 @@ namespace XPirateZ_Genie2._0
             soldierFRESH.Name = "soldierFRESH";
             soldierFRESH.Size = new Size(112, 23);
             soldierFRESH.TabIndex = 79;
+            soldierFRESH.ValueChanged += soldierVal_ValueChanged;
             // 
             // soldierSTR
             // 
@@ -1698,6 +1885,7 @@ namespace XPirateZ_Genie2._0
             soldierSTR.Name = "soldierSTR";
             soldierSTR.Size = new Size(112, 23);
             soldierSTR.TabIndex = 78;
+            soldierSTR.ValueChanged += soldierVal_ValueChanged;
             // 
             // soldierTHR
             // 
@@ -1707,6 +1895,7 @@ namespace XPirateZ_Genie2._0
             soldierTHR.Name = "soldierTHR";
             soldierTHR.Size = new Size(112, 23);
             soldierTHR.TabIndex = 77;
+            soldierTHR.ValueChanged += soldierVal_ValueChanged;
             // 
             // soldierACC
             // 
@@ -1716,6 +1905,7 @@ namespace XPirateZ_Genie2._0
             soldierACC.Name = "soldierACC";
             soldierACC.Size = new Size(112, 23);
             soldierACC.TabIndex = 76;
+            soldierACC.ValueChanged += soldierVal_ValueChanged;
             // 
             // soldierBRAV
             // 
@@ -1725,6 +1915,7 @@ namespace XPirateZ_Genie2._0
             soldierBRAV.Name = "soldierBRAV";
             soldierBRAV.Size = new Size(112, 23);
             soldierBRAV.TabIndex = 75;
+            soldierBRAV.ValueChanged += soldierVal_ValueChanged;
             // 
             // soldierREACTIONS
             // 
@@ -1734,6 +1925,7 @@ namespace XPirateZ_Genie2._0
             soldierREACTIONS.Name = "soldierREACTIONS";
             soldierREACTIONS.Size = new Size(112, 23);
             soldierREACTIONS.TabIndex = 74;
+            soldierREACTIONS.ValueChanged += soldierVal_ValueChanged;
             // 
             // soldierHEALTH
             // 
@@ -1743,6 +1935,7 @@ namespace XPirateZ_Genie2._0
             soldierHEALTH.Name = "soldierHEALTH";
             soldierHEALTH.Size = new Size(112, 23);
             soldierHEALTH.TabIndex = 73;
+            soldierHEALTH.ValueChanged += soldierVal_ValueChanged;
             // 
             // soldierEN
             // 
@@ -1752,6 +1945,7 @@ namespace XPirateZ_Genie2._0
             soldierEN.Name = "soldierEN";
             soldierEN.Size = new Size(112, 23);
             soldierEN.TabIndex = 72;
+            soldierEN.ValueChanged += soldierVal_ValueChanged;
             // 
             // soldierTU
             // 
@@ -1761,6 +1955,7 @@ namespace XPirateZ_Genie2._0
             soldierTU.Name = "soldierTU";
             soldierTU.Size = new Size(112, 23);
             soldierTU.TabIndex = 71;
+            soldierTU.ValueChanged += soldierVal_ValueChanged;
             // 
             // label8
             // 
@@ -2306,199 +2501,14 @@ namespace XPirateZ_Genie2._0
             buildNowMenuItem.Text = "Build Now!";
             buildNowMenuItem.Click += buildNowMenuItem_Click;
             // 
-            // tabPage6
+            // items
             // 
-            tabPage6.BackgroundImage = Properties.Resources.bg;
-            tabPage6.BackgroundImageLayout = ImageLayout.Stretch;
-            tabPage6.Controls.Add(productionPanel);
-            tabPage6.Location = new Point(4, 24);
-            tabPage6.Name = "tabPage6";
-            tabPage6.Padding = new Padding(3);
-            tabPage6.Size = new Size(776, 478);
-            tabPage6.TabIndex = 5;
-            tabPage6.Text = "Productions";
-            tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // productionPanel
-            // 
-            productionPanel.Controls.Add(productionCompleteAllBtn);
-            productionPanel.Controls.Add(label42);
-            productionPanel.Controls.Add(baseProduction8);
-            productionPanel.Controls.Add(baseProduction7);
-            productionPanel.Controls.Add(baseProduction6);
-            productionPanel.Controls.Add(baseProduction5);
-            productionPanel.Controls.Add(baseProduction4);
-            productionPanel.Controls.Add(baseProduction3);
-            productionPanel.Controls.Add(baseProduction2);
-            productionPanel.Controls.Add(baseProduction1);
-            productionPanel.Controls.Add(productionCompleteSelectedBTN);
-            productionPanel.Controls.Add(label43);
-            productionPanel.Controls.Add(productionListBox);
-            productionPanel.Dock = DockStyle.Fill;
-            productionPanel.Location = new Point(3, 3);
-            productionPanel.Name = "productionPanel";
-            productionPanel.Size = new Size(770, 472);
-            productionPanel.TabIndex = 0;
-            // 
-            // productionCompleteAllBtn
-            // 
-            productionCompleteAllBtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            productionCompleteAllBtn.Location = new Point(8, 426);
-            productionCompleteAllBtn.Name = "productionCompleteAllBtn";
-            productionCompleteAllBtn.Size = new Size(301, 38);
-            productionCompleteAllBtn.TabIndex = 131;
-            productionCompleteAllBtn.Text = "COMPLETE ALL";
-            productionCompleteAllBtn.UseVisualStyleBackColor = true;
-            productionCompleteAllBtn.Click += productionCompleteAllBtn_Click;
-            // 
-            // label42
-            // 
-            label42.AutoSize = true;
-            label42.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label42.ForeColor = Color.White;
-            label42.Location = new Point(8, 9);
-            label42.Margin = new Padding(4, 0, 4, 0);
-            label42.Name = "label42";
-            label42.Size = new Size(133, 20);
-            label42.TabIndex = 130;
-            label42.Text = "Select a base First";
-            // 
-            // baseProduction8
-            // 
-            baseProduction8.BackColor = Color.Maroon;
-            baseProduction8.Enabled = false;
-            baseProduction8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            baseProduction8.Location = new Point(253, 34);
-            baseProduction8.Margin = new Padding(4, 5, 4, 5);
-            baseProduction8.Name = "baseProduction8";
-            baseProduction8.Size = new Size(32, 32);
-            baseProduction8.TabIndex = 129;
-            baseProduction8.Text = "8";
-            baseProduction8.UseVisualStyleBackColor = false;
-            // 
-            // baseProduction7
-            // 
-            baseProduction7.BackColor = Color.Maroon;
-            baseProduction7.Enabled = false;
-            baseProduction7.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            baseProduction7.Location = new Point(218, 34);
-            baseProduction7.Margin = new Padding(4, 5, 4, 5);
-            baseProduction7.Name = "baseProduction7";
-            baseProduction7.Size = new Size(32, 32);
-            baseProduction7.TabIndex = 128;
-            baseProduction7.Text = "7";
-            baseProduction7.UseVisualStyleBackColor = false;
-            // 
-            // baseProduction6
-            // 
-            baseProduction6.BackColor = Color.Maroon;
-            baseProduction6.Enabled = false;
-            baseProduction6.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            baseProduction6.Location = new Point(183, 34);
-            baseProduction6.Margin = new Padding(4, 5, 4, 5);
-            baseProduction6.Name = "baseProduction6";
-            baseProduction6.Size = new Size(32, 32);
-            baseProduction6.TabIndex = 127;
-            baseProduction6.Text = "6";
-            baseProduction6.UseVisualStyleBackColor = false;
-            // 
-            // baseProduction5
-            // 
-            baseProduction5.BackColor = Color.Maroon;
-            baseProduction5.Enabled = false;
-            baseProduction5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            baseProduction5.Location = new Point(148, 34);
-            baseProduction5.Margin = new Padding(4, 5, 4, 5);
-            baseProduction5.Name = "baseProduction5";
-            baseProduction5.Size = new Size(32, 32);
-            baseProduction5.TabIndex = 126;
-            baseProduction5.Text = "5";
-            baseProduction5.UseVisualStyleBackColor = false;
-            // 
-            // baseProduction4
-            // 
-            baseProduction4.BackColor = Color.Maroon;
-            baseProduction4.Enabled = false;
-            baseProduction4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            baseProduction4.Location = new Point(113, 34);
-            baseProduction4.Margin = new Padding(4, 5, 4, 5);
-            baseProduction4.Name = "baseProduction4";
-            baseProduction4.Size = new Size(32, 32);
-            baseProduction4.TabIndex = 125;
-            baseProduction4.Text = "4";
-            baseProduction4.UseVisualStyleBackColor = false;
-            // 
-            // baseProduction3
-            // 
-            baseProduction3.BackColor = Color.Maroon;
-            baseProduction3.Enabled = false;
-            baseProduction3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            baseProduction3.Location = new Point(78, 34);
-            baseProduction3.Margin = new Padding(4, 5, 4, 5);
-            baseProduction3.Name = "baseProduction3";
-            baseProduction3.Size = new Size(32, 32);
-            baseProduction3.TabIndex = 124;
-            baseProduction3.Text = "3";
-            baseProduction3.UseVisualStyleBackColor = false;
-            // 
-            // baseProduction2
-            // 
-            baseProduction2.BackColor = Color.Maroon;
-            baseProduction2.Enabled = false;
-            baseProduction2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            baseProduction2.Location = new Point(43, 34);
-            baseProduction2.Margin = new Padding(4, 5, 4, 5);
-            baseProduction2.Name = "baseProduction2";
-            baseProduction2.Size = new Size(32, 32);
-            baseProduction2.TabIndex = 123;
-            baseProduction2.Text = "2";
-            baseProduction2.UseVisualStyleBackColor = false;
-            // 
-            // baseProduction1
-            // 
-            baseProduction1.BackColor = Color.Maroon;
-            baseProduction1.Enabled = false;
-            baseProduction1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            baseProduction1.Location = new Point(8, 34);
-            baseProduction1.Margin = new Padding(4, 5, 4, 5);
-            baseProduction1.Name = "baseProduction1";
-            baseProduction1.Size = new Size(32, 32);
-            baseProduction1.TabIndex = 122;
-            baseProduction1.Text = "1";
-            baseProduction1.UseVisualStyleBackColor = false;
-            // 
-            // productionCompleteSelectedBTN
-            // 
-            productionCompleteSelectedBTN.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            productionCompleteSelectedBTN.Location = new Point(462, 426);
-            productionCompleteSelectedBTN.Name = "productionCompleteSelectedBTN";
-            productionCompleteSelectedBTN.Size = new Size(301, 38);
-            productionCompleteSelectedBTN.TabIndex = 121;
-            productionCompleteSelectedBTN.Text = "COMPLETE SELECTED";
-            productionCompleteSelectedBTN.UseVisualStyleBackColor = true;
-            productionCompleteSelectedBTN.Click += productionCompleteSelectedBTN_Click;
-            // 
-            // label43
-            // 
-            label43.AutoSize = true;
-            label43.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label43.ForeColor = Color.White;
-            label43.Location = new Point(8, 95);
-            label43.Margin = new Padding(4, 0, 4, 0);
-            label43.Name = "label43";
-            label43.Size = new Size(390, 20);
-            label43.TabIndex = 120;
-            label43.Text = "Your current Productions with at least 1 Runt attached";
-            // 
-            // productionListBox
-            // 
-            productionListBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            productionListBox.FormattingEnabled = true;
-            productionListBox.ItemHeight = 15;
-            productionListBox.Location = new Point(8, 118);
-            productionListBox.Name = "productionListBox";
-            productionListBox.Size = new Size(755, 304);
-            productionListBox.TabIndex = 119;
+            items.FormattingEnabled = true;
+            items.Location = new Point(7, 443);
+            items.Name = "items";
+            items.Size = new Size(435, 23);
+            items.TabIndex = 151;
+            items.SelectedIndexChanged += items_SelectedIndexChanged;
             // 
             // Genie
             // 
@@ -2529,6 +2539,9 @@ namespace XPirateZ_Genie2._0
             tabPage3.ResumeLayout(false);
             researchPanel.ResumeLayout(false);
             researchPanel.PerformLayout();
+            tabPage6.ResumeLayout(false);
+            productionPanel.ResumeLayout(false);
+            productionPanel.PerformLayout();
             tabPage4.ResumeLayout(false);
             soldierPanel.ResumeLayout(false);
             soldierPanel.PerformLayout();
@@ -2553,9 +2566,6 @@ namespace XPirateZ_Genie2._0
             ((System.ComponentModel.ISupportInitialize)ammoSlot1).EndInit();
             panel1.ResumeLayout(false);
             contextMenuStrip1.ResumeLayout(false);
-            tabPage6.ResumeLayout(false);
-            productionPanel.ResumeLayout(false);
-            productionPanel.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -2580,7 +2590,6 @@ namespace XPirateZ_Genie2._0
         private Label label6;
         private Label label25;
         private NumericUpDown itemQty;
-        private ComboBox items;
         private Label label24;
         private TextBox baseName;
         private Button b55;
@@ -2746,5 +2755,6 @@ namespace XPirateZ_Genie2._0
         private Button productionCompleteSelectedBTN;
         private Label label43;
         private ListBox productionListBox;
+        private ComboBox items;
     }
 }

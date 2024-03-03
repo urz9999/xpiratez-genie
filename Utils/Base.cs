@@ -204,7 +204,7 @@ namespace X_PirateZ_Genie
         override
         public string ToString()
         {
-            return name;
+            return name ?? ID;
         }
     }
 

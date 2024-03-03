@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XPirateZ-Genie2.0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+629056177f64eed4da6dce6aaaf37b1657da491f")]
 [assembly: System.Reflection.AssemblyProductAttribute("XPirateZ-Genie2.0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XPirateZ-Genie2.0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

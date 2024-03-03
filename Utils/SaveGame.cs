@@ -348,27 +348,31 @@ namespace X_PirateZ_Genie
             var bases = (YamlSequenceNode)mapping.Children[new YamlScalarNode("bases")];
             foreach (YamlMappingNode baseUnit in bases)
             {
-                var soldiers = (YamlSequenceNode)baseUnit[new YamlScalarNode("soldiers")];
-                foreach (YamlMappingNode soldier in soldiers)
+                try
                 {
-                    if (soldier[new YamlScalarNode("name")].ToString().Equals(name)) 
+                    var soldiers = (YamlSequenceNode)baseUnit[new YamlScalarNode("soldiers")];
+                    foreach (YamlMappingNode soldier in soldiers)
                     {
-                        var stats = (YamlMappingNode)soldier[new YamlScalarNode("currentStats")];
+                        if (soldier[new YamlScalarNode("name")].ToString().Equals(name))
+                        {
+                            var stats = (YamlMappingNode)soldier[new YamlScalarNode("currentStats")];
 
-                        stats.Children[new YamlScalarNode("tu")] = new YamlScalarNode(tu.ToString());
-                        stats.Children[new YamlScalarNode("stamina")] = new YamlScalarNode(energy.ToString());
-                        stats.Children[new YamlScalarNode("health")] = new YamlScalarNode(health.ToString());
-                        stats.Children[new YamlScalarNode("bravery")] = new YamlScalarNode(bravery.ToString());
-                        stats.Children[new YamlScalarNode("reactions")] = new YamlScalarNode(reactions.ToString());
-                        stats.Children[new YamlScalarNode("firing")] = new YamlScalarNode(accuracy.ToString());
-                        stats.Children[new YamlScalarNode("throwing")] = new YamlScalarNode(throwing.ToString());
-                        stats.Children[new YamlScalarNode("strength")] = new YamlScalarNode(strength.ToString());
-                        stats.Children[new YamlScalarNode("psiStrength")] = new YamlScalarNode(voodooPower.ToString());
-                        stats.Children[new YamlScalarNode("psiSkill")] = new YamlScalarNode(voodooAbility.ToString());
-                        stats.Children[new YamlScalarNode("melee")] = new YamlScalarNode(melee.ToString());
-                        stats.Children[new YamlScalarNode("mana")] = new YamlScalarNode(freshness.ToString());
+                            stats.Children[new YamlScalarNode("tu")] = new YamlScalarNode(tu.ToString());
+                            stats.Children[new YamlScalarNode("stamina")] = new YamlScalarNode(energy.ToString());
+                            stats.Children[new YamlScalarNode("health")] = new YamlScalarNode(health.ToString());
+                            stats.Children[new YamlScalarNode("bravery")] = new YamlScalarNode(bravery.ToString());
+                            stats.Children[new YamlScalarNode("reactions")] = new YamlScalarNode(reactions.ToString());
+                            stats.Children[new YamlScalarNode("firing")] = new YamlScalarNode(accuracy.ToString());
+                            stats.Children[new YamlScalarNode("throwing")] = new YamlScalarNode(throwing.ToString());
+                            stats.Children[new YamlScalarNode("strength")] = new YamlScalarNode(strength.ToString());
+                            stats.Children[new YamlScalarNode("psiStrength")] = new YamlScalarNode(voodooPower.ToString());
+                            stats.Children[new YamlScalarNode("psiSkill")] = new YamlScalarNode(voodooAbility.ToString());
+                            stats.Children[new YamlScalarNode("melee")] = new YamlScalarNode(melee.ToString());
+                            stats.Children[new YamlScalarNode("mana")] = new YamlScalarNode(freshness.ToString());
+                        }
                     }
                 }
+                catch { }
             }
         }
 
